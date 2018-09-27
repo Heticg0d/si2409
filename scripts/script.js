@@ -36,7 +36,7 @@ $(window).on("scroll", function() {
 
 function inputcallback()
 {
-	var iphonepic = document.getElementById("iphone_container");
+	var iphonepic = document.getElementById("iphone_first");
 	var sticky = iphonepic.offsetTop;
 
 }
@@ -46,9 +46,17 @@ window.onscroll = function()
 	myFunction()
 };
 
-var iphonepic = document.getElementById("iphone_container");
+var iphonepic = document.getElementById("iphone_first");
 var flowers=document.getElementsByClassName("animated_plants")
 var sticky = iphonepic.offsetTop;
+
+
+function getCoordinates(elem) 
+{
+    var LeftPos = elem.offsetLeft;
+    var TopPos = elem.offsetTop;
+    return {X:LeftPos,Y:TopPos};
+}   
 
 function myFunction()
 {
@@ -60,8 +68,13 @@ function myFunction()
   {
     $(flowers).fadeIn();
   }
+<<<<<<< HEAD
+  
+  if (window.pageYOffset > sticky-95)
+=======
 
   if (window.pageYOffset > sticky -100)
+>>>>>>> fcf456f36bf907dac3281f7c676bcd3efdefb128
   {
     if (window.pageYOffset > sticky +900)
     {
