@@ -231,29 +231,29 @@ header nav ul li #kick:hover
 
 .leaves3{
   width : 10%;
-  top: 50%;
+  top: 40%;
   position: absolute;
   animation-name: example1;
-  animation-duration: 3.5s;
+  animation-duration: 2.5s;
   transform: rotate(90deg);
   animation-fill-mode: forwards;
 }
 
 .leaves{
   width : 10%;
-  top: 20%;
+  top: 8%;
   position: absolute;
   animation-name: example1;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
 .leaves2{
   width : 5%;
-  top: 80%;
+  top: 70%;
   position: absolute;
   animation-name: example1;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -268,7 +268,7 @@ header nav ul li #kick:hover
   top : 50%;
   position: absolute;
   animation-name: example2;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
@@ -283,7 +283,7 @@ header nav ul li #kick:hover
   top : 20%;
   position: absolute;
   animation-name: example2;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
