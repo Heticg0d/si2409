@@ -11,10 +11,11 @@ mySVG.drawsvg('animate');
 //}
 
 let body = document
-let total_height =
 
+
+let header = document.getElementsByClassName('header')
 $(window).on("scroll", function() {
-    if($(window).scrollTop() > ) {
+    if($(window).scrollTop() >10) {
         header[0].classList.add("appear");
     } else {
        header[0].classList.remove("appear");

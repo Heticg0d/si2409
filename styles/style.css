@@ -137,13 +137,9 @@ header nav ul li #kick:hover
 	margin:auto;
 }
 
-<<<<<<< HEAD
 .appear { background-color: #2b7f55}
 
 
-=======
->>>>>>> ae71785f11c9cd9f079817ffa82dd51fd3f41637
-/**** logo dryp animé ****/
 
 .animated_logo_container
 {
@@ -155,16 +151,14 @@ header nav ul li #kick:hover
 	-ms-user-select: none;
    	user-select: none;
    	z-index: 3;
-<<<<<<< HEAD
 		position: relative;
 		margin: auto;
 		margin-bottom: 7%;
-=======
 	position: relative;
 	margin: auto;
 	margin-bottom: 10vh;
 
->>>>>>> ae71785f11c9cd9f079817ffa82dd51fd3f41637
+
 }
 
 #animated_logo_dryp{
