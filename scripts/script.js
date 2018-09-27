@@ -12,7 +12,6 @@ mySVG.drawsvg('animate');
 
 
 let body = document.getElementsByTagName('body')
-
 let header = document.getElementsByClassName('header')
 let logo = document.getElementsByClassName('logo')
 logo[0].style.opacity = 0
@@ -26,7 +25,6 @@ $(window).on("scroll", function() {
        logo[0].style.opacity = 0;
     }
 });
-
 
 
 

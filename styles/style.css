@@ -189,7 +189,7 @@ header nav ul li #kick:hover
 }
 
 
-/**** plants animation *****/
+/**** fisrt plants animation *****/
 
 .animated_plants{
   position: relative;
@@ -255,7 +255,6 @@ header nav ul li #kick:hover
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
-
 
 
 .texto
