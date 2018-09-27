@@ -69,12 +69,9 @@ function myFunction()
     $(flowers).fadeIn();
   }
 
-
   if (window.pageYOffset > sticky-95)
 
-
   if (window.pageYOffset > sticky -100)
-
   {
     if (window.pageYOffset > sticky +900)
     {
