@@ -3,20 +3,16 @@ var mySVG = $('#animated_logo_dryp').drawsvg({
 });
 mySVG.drawsvg('animate');
 
-
-
-
-//if (document.pageYOffset > 10) {
-//  console.log('hello world')
-//}
-
 let body = document
 let total_height =
 
-$(window).on("scroll", function() {
-    if($(window).scrollTop() > ) {
+$(window).on("scroll", function() 
+{
+    if($(window).scrollTop() > ) 
+    {
         header[0].classList.add("appear");
-    } else {
+    } else 
+    {
        header[0].classList.remove("appear");
     }
 });
