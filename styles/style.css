@@ -56,7 +56,7 @@ body
 #notif
 {
   max-width: 40vw;
-  margin: auto;	
+  margin: auto;
 }
 
 .sticky
@@ -65,13 +65,13 @@ body
 	float: right;
 	top:10vh;
 	margin-right: 100px;
-	margin-left: 60vw;	
+	margin-left: 60vw;
 }
 
 #iphone_first
 {
 	height: 600px;
-	width: auto;	
+	width: auto;
 	animation:opa-in 3s;
 	/*top:100vh;*/
 
@@ -365,5 +365,6 @@ h2
 }
 
 .parallax-window{
+  width : 10%;
   speed : 0.5;
 }
