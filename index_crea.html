@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
-        <title>Who am I?</title>
-        <meta name="description" content="Description de la page">
-       <!--  <link rel="stylesheet" type="text/css" href="styles/reset.css"> -->
-        <link rel="icon" href="images/favicon.png" />
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="styles/style_crea.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <title>DRYP - Who am I ?</title>
+      <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="styles/style_crea.css">
+      <!-- lien vers jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+      </script>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="scripts/jquery.drawsvg.js"></script>
     </head>
     <body>
-        <nav class="menu">
-            <ul>
-                <li>home</li>
-                <li>who am I?</li>
-                <li>Kickstarter</li>
-            </ul>
-        </nav>
+      <header class="header">
+        <div class="menu">
+          <div class="menu_container">
+            <div class="logo"><a href="#"><img src="images/logo.png"></a>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index_crea.html">WHO AM I?</a></li>
+                <li><a href="https://www.kickstarter.com/projects/benkling/dryp-an-app-that-keeps-your-plants-alive-and-happy" id="kick">KICKSTART! </a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
 
         <div class="topDiv">
             <div class="topDivLeft">
@@ -52,8 +63,6 @@
                     <a href="http://benkling.tumblr.com/"><img src="images/tumblr.png"></a>
                 </div>
         </div>
-
-        <script src="scripts/app.js">
-        </script>
     </body>
+    <script src="scripts/script.js"></script>
 </html>
