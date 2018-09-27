@@ -24,37 +24,51 @@ body
 	height: 500vh;
 }
 
-/*#textfirst
+#intro_conatainer{
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#textfirst
 {
-	display: block;
-	margin: auto;
-}*/
+  display: flex;
+	flex-direction: column;
+  justify-content: space-around;
+  height: 15%;
+}
+
+#paraone
+{
+	font-size: 25px;
+	max-width: 40vw;
+  margin: auto;
+	/*margin-left: 15vw;*/
+	margin-top: 40px;
+	/*text-align: justify;*/
+	color: white;
+}
+#notif
+{
+	max-width: 40vw;
+  margin: auto;
+}
+
 .sticky
 {
 	position:fixed;
 	top:100px;
 	z-index: 10;
 }
-#paraone
-{
-	display: flex;
-	flex-direction: column;
-	font-size: 25px;
-	float: left;
-	max-width: 40vw;
-	margin-left: 15vw;
-	margin-top: 40px;
-	text-align: justify;
-	color: white;
-}
-#notif
-{
-	max-width: 400px;
-}
+
 #iphone_container
 {
 	height: 100vh;
 	width: 90vw;
+  float: right;
 }
 
 .pic_iph_one
@@ -64,7 +78,6 @@ body
 	width: 300px;
 	top:100vh;
 	margin-right: 100px;
-	float: right;
 }
 .kickstarter_announce
 {
