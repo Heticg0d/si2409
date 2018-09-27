@@ -14,85 +14,7 @@ body
 	background-color: #339966;
 }
 
-.kickstarter_announce
-{
-    text-align: center;
-    margin-bottom: 40vh;
-}
-
-.kickstarter_announce p
-{
-    position: relative;
-    margin-top: -30px;
-    padding-top: -30px;
-}
-
-#logokick
-{
-    position: relative;
-    max-width: 30px;
-}
-
-.kickstarter_announce a
-{
-    margin-top: 30px;
-}
-
-
-.logo img
-{
-	max-width: 100px;
-	padding-top: 25px;
-}
-
-.menu_container {
-	width:90%;
-	max-width:1000px;
-	margin:auto;
-}
-
-
-
-
-.animated_logo_container
-{
-	max-width: 300px;
-	height: auto;
-	-moz-user-select: -moz-none;
-   	-khtml-user-select: none;
-   	-webkit-user-select: none;
-	-ms-user-select: none;
-   	user-select: none;
-   	z-index: 3;
-		position: relative;
-		margin: auto;
-		margin-bottom: 3%;
-}
-
-#animated_logo_dryp{
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left : 0;
-}
-
-.animated_logo_background{
-	animation-name: appear;
-	animation-duration: 2s;
-	animation-delay: 2s;
-	animation-fill-mode: forwards;
-	width: 100%;
-	opacity: 0;
-	position: absolute;
-	top: 0;
-	left : 0;
-}
-
-@keyframes appear {
-    0%   {opacity: 0;}
-    100% {opacity: 1;}
-}
-
+/***** header menu *****/
 
 header {
 	position: fixed;
@@ -152,57 +74,63 @@ header nav ul li #kick:hover
 {
 	color: yellow;
 }
-.texto
+
+.logo img
 {
-	color:#fff;
-	position:relative;
-	padding:250px 0;
-	text-align: center;
-	font-weight: 400;
-	height: 15vh;
-	padding-bottom: 70vh;
-	z-index: 1;
-}
-h2
-{
-	text-align: center;
-	color: white;
-}
-.texto p a
-{
-	text-decoration: none;
-	color: white;
-	z-index: 98;
-}
-.texto p a:hover
-{
-	color: yellow;
-	z-index: 98;
+	max-width: 100px;
+	padding-top: 25px;
 }
 
-.texto h2, .texto p
+.menu_container {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+
+
+/**** logo dryp animé ****/
+
+.animated_logo_container
 {
+	max-width: 300px;
+	height: auto;
 	-moz-user-select: -moz-none;
    	-khtml-user-select: none;
    	-webkit-user-select: none;
 	-ms-user-select: none;
    	user-select: none;
-	margin-top: 5vh;
-	display:inline-block;
-	padding:10px 20px;
+   	z-index: 3;
+		position: relative;
+		margin: auto;
+		margin-bottom: 3%;
 }
 
-.texto h2 {
-	font-size:40px;
-	letter-spacing: 2.5px;
-	font-weight: normal;
+#animated_logo_dryp{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left : 0;
 }
 
-.texto p {
-	font-size:20px;
-	letter-spacing: 2.5px;
+.animated_logo_background{
+	animation-name: appear;
+	animation-duration: 2s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left : 0;
 }
 
+@keyframes appear {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+/**** plants animation *****/
 
 .animated_plants{
   position: relative;
@@ -267,4 +195,82 @@ h2
   animation-name: example2;
   animation-duration: 4s;
   animation-fill-mode: forwards;
+}
+
+
+
+.texto
+{
+	color:#fff;
+	position:relative;
+	padding:250px 0;
+	text-align: center;
+	font-weight: 400;
+	height: 15vh;
+	padding-bottom: 70vh;
+	z-index: 1;
+}
+h2
+{
+	text-align: center;
+	color: white;
+}
+.texto p a
+{
+	text-decoration: none;
+	color: white;
+	z-index: 98;
+}
+.texto p a:hover
+{
+	color: yellow;
+	z-index: 98;
+}
+
+.texto h2, .texto p
+{
+	-moz-user-select: -moz-none;
+   	-khtml-user-select: none;
+   	-webkit-user-select: none;
+	-ms-user-select: none;
+   	user-select: none;
+	margin-top: 5vh;
+	display:inline-block;
+	padding:10px 20px;
+}
+
+.texto h2 {
+	font-size:40px;
+	letter-spacing: 2.5px;
+	font-weight: normal;
+}
+
+.texto p {
+	font-size:20px;
+	letter-spacing: 2.5px;
+}
+
+
+.kickstarter_announce
+{
+    text-align: center;
+    margin-bottom: 40vh;
+}
+
+.kickstarter_announce p
+{
+    position: relative;
+    margin-top: -30px;
+    padding-top: -30px;
+}
+
+#logokick
+{
+    position: relative;
+    max-width: 30px;
+}
+
+.kickstarter_announce a
+{
+    margin-top: 30px;
 }
