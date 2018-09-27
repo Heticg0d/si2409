@@ -36,7 +36,6 @@ body
 	width: 90vw;
 }
 
-<<<<<<< HEAD
 .pic_iph_one
 {
 	animation:opa-in 3s;
@@ -63,10 +62,11 @@ body
     position: relative;
     margin-top: -30px;
     padding-top: -30px;
-=======
+}
 /***** header menu *****/
 
-header {
+header 
+{
 	position: fixed;
     left: 0;
 	width: 100vw;
@@ -76,7 +76,6 @@ header {
 
 header .menu {
 	background:rgba(255,255,255,.2);
->>>>>>> d36fa96f99a1ada9bbaf3f31dfb386f06b42bf36
 }
 
 header .logo {
@@ -138,12 +137,8 @@ header nav ul li #kick:hover
 	margin:auto;
 }
 
-<<<<<<< HEAD
-=======
-
 /**** logo dryp animé ****/
 
->>>>>>> d36fa96f99a1ada9bbaf3f31dfb386f06b42bf36
 .animated_logo_container
 {
 	max-width: 300px;
