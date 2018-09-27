@@ -10,8 +10,8 @@ mySVG.drawsvg('animate');
 //  console.log('hello world')
 //}
 
-let body = document
 
+let body = document.getElementsByTagName('body')
 
 let header = document.getElementsByClassName('header')
 $(window).on("scroll", function() {
