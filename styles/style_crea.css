@@ -26,7 +26,6 @@ header
 
 #piccrea
 {
-	position: -webkit-sticky;
   	position: sticky;
   	top: 100px;
 }
@@ -117,8 +116,8 @@ header nav ul li #kick:hover
 .topDiv .topDivLeft h1{
 	position: absolute;
 	top: 27%;
-  left: 13%;
-  font-size: 50px;
+  	left: 13%;
+  	font-size: 50px;
 }
 
 .topDiv .topDivLeft img{
@@ -134,9 +133,9 @@ header nav ul li #kick:hover
 .topDiv .topDivRight{
 	width: 40%;
 	position: absolute;
-  right: 0;
-  top: 45%;
-  height: 700px;
+	right: 0;
+	top: 45%;
+	height: 700px;
 }
 
 
@@ -175,7 +174,7 @@ header nav ul li #kick:hover
 /***** DIV RESEAUX (FOLLOW ME) *****/
 
 .reseaux{
-	padding: 50px 0;
+	padding: 50px 0 50px 50px;
 }
 
 .reseaux h2{
@@ -215,4 +214,132 @@ header nav ul li #kick:hover
 .reseaux .rsxImg1 a:last-child,
 .reseaux .rsxImg2 a:last-child{
 	padding: 0;
+}
+
+
+/***** RESPONSIVE (1000px) *****/
+
+
+@media screen and (max-width: 1000px){
+
+	.topDiv .topDivLeft h1{
+		left: 17%;
+		top: 31%;
+    	font-size: 35px;
+	}
+
+	.topDiv .topDivLeft img {
+    	width: 100%;
+    }
+
+    .topDiv .topDivRight{
+    	top: 30%
+    }
+
+    .topDiv .topDivRight img{
+    	width: 70%;
+    	position: initial;
+    }
+
+	#piccrea {
+		position: initial;
+
+	}
+
+
+	.infoText{
+		padding: 50px 0 50px 100px;
+	}
+
+	.infoText p{
+		width: 90%;
+	}
+
+	.hobbies{
+		justify-content: space-around;
+	}
+
+	.hobbies img,
+	.hobbies p{
+		width: 45%
+	}
+
+	.hobbies{
+
+	}
+}
+
+
+/***** RESPONSIVE (650px) *****/
+
+
+@media screen and (max-width: 650px){
+
+	/*header .header,
+	header .menu{
+		display: none;
+	}*/
+
+	.topDiv{
+		width: 100%
+	}
+
+	.topDiv .topDivRight,
+	.topDiv .topDivLeft{
+		width: 60%;
+	}
+
+	.topDiv .topDivLeft h1{
+		left: 18%;
+    	top: 28%;
+	}
+
+
+	.topDiv .topDivRight{
+		top: 50%;
+	}
+
+	.infoText{
+		padding: 50px;
+	}
+
+	.infoText p{
+		width: 100%;
+	}
+
+	.hobbies{
+		display: flex;
+   		flex-direction: column;
+	}
+
+	.hobbies img{
+		width: 85%;
+   		padding-bottom: 20px;
+	}
+
+	.hobbies p{
+		width: 80%;
+	}
+
+	.reseaux{
+		padding: 50px 0 50px 50px;
+	}
+
+	.reseaux .rsxImg1 a,
+	.reseaux .rsxImg2 a {
+		padding-right: 0;
+	}
+
+}
+
+
+/***** RESPONSIVE (450px) *****/
+
+
+@media screen and (max-width: 450px){
+
+	.topDiv .topDivLeft h1{
+		left: 15%;
+		top: 27%;
+	}
 }
