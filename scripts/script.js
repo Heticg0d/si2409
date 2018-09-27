@@ -44,13 +44,6 @@ var flowers=document.getElementsByClassName("animated_plants")
 var sticky = iphonepic.offsetTop;
 
 
-/*function getCoordinates(elem)
-{
-    var LeftPos = elem.offsetLeft;
-    var TopPos = elem.offsetTop;
-    return {X:LeftPos,Y:TopPos};
-}*/
-
 function myFunction()
 {
   if (window.pageYOffset > 100)

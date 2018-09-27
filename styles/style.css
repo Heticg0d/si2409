@@ -47,21 +47,19 @@ body
 	font-size: 25px;
 	max-width: 40vw;
   margin: auto;
-	/*margin-left: 15vw;*/
 	margin-top: 40px;
-	/*text-align: justify;*/
 	color: white;
 }
 #notif
 {
   max-width: 30vw;
-  margin: auto;	
+  margin: auto;
 }
 
 #iphone_first
 {
 	height: 500px;
-	width: auto;	
+	width: auto;
   max-width: 40vw;
   margin: auto;
 }
@@ -86,16 +84,14 @@ body
 }
 #iphone_two
 {
-	display: block;	
+	display: block;
 	height: 500px;
 	width: 300px;
 	margin-left: auto;
-	margin-right: auto;	
+	margin-right: auto;
 	animation:opa-in 3s;
   	top: 100px;
 }
-	/*position: absolute;*/
-	/*top:100vh;*/
 
 }
 .kickstarter_announce
