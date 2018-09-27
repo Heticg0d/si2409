@@ -14,17 +14,20 @@ mySVG.drawsvg('animate');
 let body = document.getElementsByTagName('body')
 
 let header = document.getElementsByClassName('header')
+let logo = document.getElementsByClassName('logo')
+logo[0].style.opacity = 0
+
 $(window).on("scroll", function() {
     if($(window).scrollTop() >10) {
         header[0].classList.add("appear");
+        logo[0].style.opacity = 1;
     } else {
        header[0].classList.remove("appear");
+       logo[0].style.opacity = 0;
     }
 });
 
-$(window).scroll(function(){
-    $(".logo").css("opacity", 0 + $(window).scrollTop() / 250);
-  });
+
 
 
 //for the first iphone to move in a stick/destick way
