@@ -1,3 +1,12 @@
+@-webkit-keyframes opa-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes opa-out {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+
 * {
 	padding:0;
 	margin:0;
@@ -12,12 +21,52 @@ body
 	background-size: cover;
 	background-attachment:fixed;
 	background-color: #339966;
-	height: 3000px;
+	height: 500vh;
 }
 
+.sticky
+{
+	position:fixed;
+	top:100px;
+	z-index: 10;
+}
+#iphone_container
+{
+	height: 100vh;
+	width: 90vw;
+}
+
+.pic_iph_one
+{
+	animation:opa-in 3s;
+	max-width: 300px;
+	width: 300px;
+	top:100vh;
+	margin-right: 100px;
+	float: right;
+}
+.kickstarter_announce
+{
+    text-align: center;
+    margin-bottom: 40vh;
+}
+
+.subtitle
+{
+	position: relative;
+	margin:auto;
+}
+
+.kickstarter_announce p
+{
+    position: relative;
+    margin-top: -30px;
+    padding-top: -30px;
+}
 /***** header menu *****/
 
-header {
+header
+{
 	position: fixed;
   left: 0;
 	width: 100vw;
@@ -88,9 +137,12 @@ header nav ul li #kick:hover
 	margin:auto;
 }
 
+<<<<<<< HEAD
 .appear { background-color: #2b7f55}
 
 
+=======
+>>>>>>> ae71785f11c9cd9f079817ffa82dd51fd3f41637
 /**** logo dryp animé ****/
 
 .animated_logo_container
@@ -103,9 +155,16 @@ header nav ul li #kick:hover
 	-ms-user-select: none;
    	user-select: none;
    	z-index: 3;
+<<<<<<< HEAD
 		position: relative;
 		margin: auto;
 		margin-bottom: 7%;
+=======
+	position: relative;
+	margin: auto;
+	margin-bottom: 10vh;
+
+>>>>>>> ae71785f11c9cd9f079817ffa82dd51fd3f41637
 }
 
 #animated_logo_dryp{
