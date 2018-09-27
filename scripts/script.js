@@ -4,13 +4,6 @@ var mySVG = $('#animated_logo_dryp').drawsvg({
 mySVG.drawsvg('animate');
 
 
-
-
-//if (document.pageYOffset > 10) {
-//  console.log('hello world')
-//}
-
-
 let body = document.getElementsByTagName('body')
 let header = document.getElementsByClassName('header')
 let logo = document.getElementsByClassName('logo')
