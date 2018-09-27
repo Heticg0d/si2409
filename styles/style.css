@@ -30,6 +30,21 @@ body
 	top:100px;
 	z-index: 10;
 }
+#paraone
+{
+	font-size: 25px;
+	float: left;
+	max-width: 40vw;
+	margin-left: 15vw;
+	margin-top: 40px;
+	text-align: justify;
+	color: white;
+}
+#notif
+{
+	float: left;
+	max-width: 400px;
+}
 #iphone_container
 {
 	height: 100vh;

@@ -52,11 +52,11 @@ function myFunction()
 {
   if (window.pageYOffset > 100)
   {
-    $(flowers).fadeOut("slow");
+    $(flowers).fadeOut();
   }
   else
   {
-    $(flowers).fadeIn("fast");
+    $(flowers).fadeIn();
   }
   
   if (window.pageYOffset > sticky -100)
