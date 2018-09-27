@@ -21,26 +21,25 @@ body
 	background-size: cover;
 	background-attachment:fixed;
 	background-color: #339966;
-	height: 500vh;
+	height: 400vh;
 }
 
 #intro_container
 {
-  margin-top:50vh;
   margin-left: auto;
   margin-right: auto;
   width: 80vw;
-  height: 80vh;
+  height: 55%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #textfirst
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  height: 100%;
 }
 
 #paraone
@@ -55,24 +54,30 @@ body
 }
 #notif
 {
-  max-width: 40vw;
+  max-width: 30vw;
   margin: auto;	
-}
-
-.sticky
-{
-	position:fixed;
-	float: right;
-	top:10vh;
-	margin-right: 100px;
-	margin-left: 60vw;	
 }
 
 #iphone_first
 {
-	height: 600px;
+	height: 500px;
 	width: auto;	
 	animation:opa-in 3s;
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 100px;
+}
+#iphone_two
+{
+	display: block;	
+	height: 500px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;	
+	animation:opa-in 3s;
+  	top: 100px;
+}
+	/*position: absolute;*/
 	/*top:100vh;*/
 
 }

@@ -51,12 +51,12 @@ var flowers=document.getElementsByClassName("animated_plants")
 var sticky = iphonepic.offsetTop;
 
 
-function getCoordinates(elem)
+/*function getCoordinates(elem)
 {
     var LeftPos = elem.offsetLeft;
     var TopPos = elem.offsetTop;
     return {X:LeftPos,Y:TopPos};
-}
+}*/
 
 function myFunction()
 {
@@ -68,26 +68,6 @@ function myFunction()
   {
     $(flowers).fadeIn();
   }
-
-  if (window.pageYOffset > sticky-95)
-
-  if (window.pageYOffset > sticky -100)
-  {
-    if (window.pageYOffset > sticky +900)
-    {
-
-    	$(iphonepic).fadeOut("slow");
-
-    }
-    else
-    {
-      $(iphonepic).fadeIn("slow");
-    	iphonepic.classList.add("sticky");
-    }
-
-  }
-  else
-  {
-    iphonepic.classList.remove("sticky");
-  }
 }
+
+var limit = document.body.offsetHeight - window.innerHeight;
