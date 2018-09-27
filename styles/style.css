@@ -84,6 +84,8 @@ article p
    	user-select: none;
    	z-index: 3;
 		position: relative;
+		margin: auto;
+		margin-bottom: 3%;
 }
 
 #animated_logo_dryp{
@@ -96,7 +98,7 @@ article p
 .animated_logo_background{
 	animation-name: appear;
 	animation-duration: 2s;
-	animation-delay: 3s;
+	animation-delay: 2s;
 	animation-fill-mode: forwards;
 	width: 100%;
 	opacity: 0;
