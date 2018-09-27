@@ -24,8 +24,11 @@ body
 	height: 500vh;
 }
 
-#intro_conatainer{
-  margin: auto;
+#intro_container
+{
+  margin-top:50vh;
+  margin-left: auto;
+  margin-right: auto;
   width: 80vw;
   height: 80vh;
   display: flex;
@@ -36,9 +39,8 @@ body
 #textfirst
 {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   justify-content: space-around;
-  height: 15%;
 }
 
 #paraone
@@ -53,31 +55,26 @@ body
 }
 #notif
 {
-	max-width: 40vw;
-  margin: auto;
+  max-width: 40vw;
+  margin: auto;	
 }
 
 .sticky
 {
 	position:fixed;
-	top:100px;
-	z-index: 10;
-}
-
-#iphone_container
-{
-	height: 100vh;
-	width: 90vw;
-  float: right;
-}
-
-.pic_iph_one
-{
-	animation:opa-in 3s;
-	max-width: 300px;
-	width: 300px;
-	top:100vh;
+	float: right;
+	top:10vh;
 	margin-right: 100px;
+	margin-left: 60vw;	
+}
+
+#iphone_first
+{
+	height: 600px;
+	width: auto;	
+	animation:opa-in 3s;
+	/*top:100vh;*/
+
 }
 .kickstarter_announce
 {
