@@ -68,13 +68,10 @@ function myFunction()
   {
     $(flowers).fadeIn();
   }
-<<<<<<< HEAD
   
   if (window.pageYOffset > sticky-95)
-=======
 
   if (window.pageYOffset > sticky -100)
->>>>>>> fcf456f36bf907dac3281f7c676bcd3efdefb128
   {
     if (window.pageYOffset > sticky +900)
     {
