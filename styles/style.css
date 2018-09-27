@@ -24,6 +24,11 @@ body
 	height: 500vh;
 }
 
+/*#textfirst
+{
+	display: block;
+	margin: auto;
+}*/
 .sticky
 {
 	position:fixed;
@@ -32,6 +37,8 @@ body
 }
 #paraone
 {
+	display: flex;
+	flex-direction: column;
 	font-size: 25px;
 	float: left;
 	max-width: 40vw;
@@ -42,7 +49,6 @@ body
 }
 #notif
 {
-	float: left;
 	max-width: 400px;
 }
 #iphone_container

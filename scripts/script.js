@@ -17,7 +17,9 @@ let logo = document.getElementsByClassName('logo')
 logo[0].style.opacity = 0
 
 $(window).on("scroll", function() {
-    if($(window).scrollTop() >10) {
+    if($(window).scrollTop() >10) 
+    {
+        $(header).fadeIn("slow");
         header[0].classList.add("appear");
         logo[0].style.opacity = 1;
     } else {
