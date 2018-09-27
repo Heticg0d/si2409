@@ -63,6 +63,7 @@ body
     margin-top: -30px;
     padding-top: -30px;
 }
+
 /***** header menu *****/
 
 header
@@ -137,7 +138,9 @@ header nav ul li #kick:hover
 	margin:auto;
 }
 
-.appear { background-color: #2b7f55}
+.appear {
+  background-color: #2b7f55;
+}
 
 
 
@@ -156,7 +159,7 @@ header nav ul li #kick:hover
 		margin-bottom: 7%;
 	position: relative;
 	margin: auto;
-	margin-bottom: 10vh;
+	margin-bottom: 20vh;
 
 
 }
