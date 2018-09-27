@@ -19,10 +19,17 @@ h2{
 header
 {
 	position: fixed;
-  left: 0;
+  	left: 0;
 	width: 100vw;
 	z-index: 8;
-	height:auto;
+	/*height:60px;*/
+}
+
+#piccrea
+{
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 100px;
 }
 
 header .menu {
@@ -38,6 +45,7 @@ header .logo {
 
 header nav {
 	float:right;
+	margin-top: -16px;
 }
 
 header nav ul {
@@ -121,7 +129,7 @@ header nav ul li #kick:hover
 .topDiv .topDivRight img {
 	width: 60%;
 	margin: 0 0 0 auto;
-  display: block;
+  	display: block;
 }
 
 .topDiv .topDivRight{
@@ -129,6 +137,7 @@ header nav ul li #kick:hover
 	position: absolute;
   right: 0;
   top: 45%;
+  height: 700px;
 }
 
 

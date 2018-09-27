@@ -54,7 +54,6 @@ body
 }
 #notif
 {
-<<<<<<< HEAD
   max-width: 30vw;
   margin: auto;	
 }
@@ -63,7 +62,6 @@ body
 {
 	height: 500px;
 	width: auto;	
-=======
   max-width: 40vw;
   margin: auto;
 }
@@ -81,7 +79,6 @@ body
 {
 	height: 600px;
 	width: auto;
->>>>>>> 0142a68fc5ecd615439c0b59ae03a9bb4197ccf5
 	animation:opa-in 3s;
 	position: -webkit-sticky;
   	position: sticky;
