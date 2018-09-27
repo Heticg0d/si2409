@@ -37,24 +37,37 @@ function inputcallback()
 
 }
 
-window.onscroll = function() {
-	myFunction()};
+window.onscroll = function() 
+{
+	myFunction()
+};
 
 var iphonepic = document.getElementById("iphone_container");
+var flowers=document.getElementsByClassName("animated_plants")
 var sticky = iphonepic.offsetTop;
 
 function myFunction()
 {
+  if (window.pageYOffset > 100)
+  {
+    $(flowers).fadeOut();
+  }
+  else
+  {
+    $(flowers).fadeIn();
+  }
+  
   if (window.pageYOffset > sticky -100)
   {
     if (window.pageYOffset > sticky +900)
     {
 
-    	iphonepic.style.animation = "opa-out 2s infinite";
-    	iphonepic.classList.remove("sticky");
+    	$(iphonepic).fadeOut("slow");
+    	
     }
     else
     {
+      $(iphonepic).fadeIn("slow");
     	iphonepic.classList.add("sticky");
     }
 
