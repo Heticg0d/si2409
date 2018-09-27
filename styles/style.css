@@ -73,7 +73,7 @@ article p
     margin-left: 300px;
 }
 
-.texto svg
+.animated_logo_container
 {
 	max-width: 300px;
 	height: auto;
@@ -88,14 +88,7 @@ article p
 .animated_logo_background{
 	animation-name: appear;
 	animation-duration: 2s;
-	max-width: 300px;
-	height: auto;
-	-moz-user-select: -moz-none;
-		-khtml-user-select: none;
-		-webkit-user-select: none;
-	-ms-user-select: none;
-		user-select: none;
-		z-index: 3;
+	width: 100%;
 }
 
 @keyframes appear {
