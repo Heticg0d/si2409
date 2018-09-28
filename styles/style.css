@@ -552,7 +552,3 @@ h2
 #bottom_pic:hover{
   transform: translateY(10%);
 }
-iframe
-{
-  margin: 30px auto;
-}
