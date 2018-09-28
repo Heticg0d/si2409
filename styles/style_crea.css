@@ -332,6 +332,15 @@ header nav ul li #kick:hover
 
 }
 
+/***** RESPONSIVE (525px) *****/
+
+
+@media screen and (max-width: 525px){}
+
+
+
+
+
 
 /***** RESPONSIVE (450px) *****/
 
