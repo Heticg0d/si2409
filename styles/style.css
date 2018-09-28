@@ -50,6 +50,11 @@ body
 	margin-top: 40px;
 	color: white;
 }
+
+#paraone p{
+  margin-bottom : 1.5em;
+}
+
 #notif
 {
   max-width: 30vw;
@@ -357,6 +362,9 @@ h2
 	letter-spacing: 2.5px;
 }
 
+#fadein_intro{
+  opacity: 0;
+}
 
 .kickstarter_announce
 {
@@ -367,20 +375,28 @@ h2
 .kickstarter_announce p
 {
     position: relative;
-    margin-top: -30px;
-    padding-top: -30px;
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.kickstarter_announce p a{
+  margin : 0 15px 0 15px;
 }
 
 #logokick
 {
     position: relative;
-    max-width: 30px;
+    height: 1.8rem;
+    transform: translateY(1px);
 }
 
-.kickstarter_announce a
-{
-    margin-top: 30px;
+#end_date{
+  left : 50%;
+  transform: translate(-50%);
+  position: absolute;
+  bottom : 10%;
 }
+
 
 .test_paralax{
   width : 10%;
