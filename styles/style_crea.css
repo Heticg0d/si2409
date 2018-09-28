@@ -155,18 +155,23 @@ header nav ul li #kick:hover
 /***** DIV HOBBIES *****/
 
 .hobbies{
+	width: 80%;
+	margin : auto;
 	display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 50px 0;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+	flex-direction: row;
 }
 
-.hobbies p{
-	width: 28%;
-}
 
 .hobbies img{
-	width: 35%;
+	width: 55%;
+	padding-bottom: 20px;
+}
+
+.hobbies_text{
+	width: 60%;
 }
 
 
@@ -255,30 +260,12 @@ header nav ul li #kick:hover
 		width: 90%;
 	}
 
-	.hobbies{
-		justify-content: space-around;
-	}
-
-	.hobbies img,
-	.hobbies p{
-		width: 45%
-	}
-
-	.hobbies{
-
-	}
-}
 
 
 /***** RESPONSIVE (650px) *****/
 
 
 @media screen and (max-width: 650px){
-
-	/*header .header,
-	header .menu{
-		display: none;
-	}*/
 
 	.topDiv{
 		width: 100%
@@ -307,19 +294,6 @@ header nav ul li #kick:hover
 		width: 100%;
 	}
 
-	.hobbies{
-		display: flex;
-   		flex-direction: column;
-	}
-
-	.hobbies img{
-		width: 85%;
-   		padding-bottom: 20px;
-	}
-
-	.hobbies p{
-		width: 80%;
-	}
 
 	.reseaux{
 		padding: 50px 0 50px 50px;
