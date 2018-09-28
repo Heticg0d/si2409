@@ -10,9 +10,11 @@ This website will provide a unique experience to the user to incitate him to fin
 
 	- HTML/CSS/JS
   
-  -Jquery 
+  	-Jquery 
 
 	- Flexbox
+	
+	- AOS animate library
 
 
 
