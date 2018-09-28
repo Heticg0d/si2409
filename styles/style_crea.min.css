@@ -1,0 +1,59 @@
+body{background-color:#176971;font-family:oswald,helvetica,arial,sans-serif;margin:0}
+p{line-height:2;color:#fff;font-size:22px}
+h2{color:#fff}
+header{position:fixed;left:0;width:100vw;z-index:8}
+#piccrea{position:sticky;top:100px}
+header .menu{background:rgba(255,255,255,.2)}
+header .logo{color:rgba(0,0,0,.8);float:left;font-size:30px;line-height:70px}
+header nav{float:right;margin-top:-16px}
+header nav ul{list-style:none}
+header nav ul li{float:left}
+header nav ul li a{color:#fff;text-decoration:none;display:block;font-size:18px;padding:0 20px;line-height:80px;-moz-user-select:-moz-none;-khtml-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}
+header nav ul li:hover{background:rgba(148,211,141,.2)}
+header nav ul li a:hover{color:#fff}
+header nav ul li #kick:hover{color:#ff0}
+.logo img{max-width:100px;padding-top:25px}
+.menu_container{width:90%;max-width:1000px;margin:auto}
+.appear{background-color:#13555b}
+.topDiv{display:flex;align-items:center;justify-content:space-between;padding:50px 0;width:90%;position:relative}
+.topDiv .topDivLeft{width:45%}
+.topDiv .topDivLeft h1{position:absolute;top:27%;left:13%;font-size:50px}
+.topDiv .topDivLeft img{width:90%}
+.topDiv .topDivRight img{width:60%;margin:0 0 0 auto;display:block}
+.topDiv .topDivRight{width:40%;position:absolute;right:0;top:45%;height:700px}
+.infoText{padding:10px 0 50px 170px}
+.infoText p{width:40%}
+.hobbies{width:80%;margin:auto;display:flex;align-items:center;justify-content:space-around;padding:50px 0;flex-direction:row}
+.hobbies img{width:55%;padding-bottom:20px}
+.hobbies_text{width:60%}
+.reseaux{padding:50px 0 50px 50px}
+.reseaux h2{text-transform:uppercase;text-align:center;padding:0 55px 50px 0;font-size:30px}
+.reseaux .reseauxIcons{width:100%}
+.reseaux .rsxImg{display:flex;align-items:center;justify-content:center}
+.reseaux .rsxImg img{width:50%}
+.reseaux .rsxImg1{padding-bottom:50px}
+.reseaux .rsxImg2{padding-top:25px}
+.reseaux .rsxImg1 a,.reseaux .rsxImg2 a{padding-right:100px}
+.reseaux .rsxImg1 a:last-child,.reseaux .rsxImg2 a:last-child{padding:0}
+@media screen and (max-width:1000px){
+.topDiv .topDivLeft h1{left:17%;top:31%;font-size:35px}
+.topDiv .topDivLeft img{width:100%}
+.topDiv .topDivRight{top:30%}
+.topDiv .topDivRight img{width:70%;position:initial}
+#piccrea{position:initial}
+.infoText{padding:50px 0 50px 100px}
+.infoText p{width:90%}
+@media screen and (max-width:650px){
+.topDiv{width:100%}
+.topDiv .topDivLeft,.topDiv .topDivRight{width:60%}
+.topDiv .topDivLeft h1{left:18%;top:28%}
+.topDiv .topDivRight{top:50%}
+.infoText{padding:50px}
+.infoText p{width:100%}
+.reseaux{padding:50px 0 50px 50px}
+.reseaux .rsxImg1 a,.reseaux .rsxImg2 a{padding-right:0}
+}
+@media screen and (max-width:450px){
+.topDiv .topDivLeft h1{left:15%;top:27%}
+}
+}

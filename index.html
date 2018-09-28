@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>DRYP - The App</title>
 	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/style.min.css">
 	<!-- lien vers jquery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 	</script>
@@ -18,7 +18,7 @@
 	<header class="header">
 		<div class="menu">
 			<div class="menu_container">
-				<div class="logo"><a href="#"><img src="images/logo.png"></a>
+				<div class="logo"><a href="#"><img src="images/logo.png" alt="logo"></a>
 				</div>
 				<nav>
 					<ul>
@@ -30,6 +30,7 @@
 			</div>
 		</div>
 	</header>
+	<main>
 			<div class="animated_plants">
     	  <img class ="leaves3" src="images/feuilles.svg" alt="">
     	  <img class ="branch" src="images/branches.svg" alt="">
@@ -45,14 +46,15 @@
 				<div id="fadein_intro">
 					<p class="subtitle">A revolutionary way to feed your plants. On <a href="#">Kickstarter</a> by now.</p>
 					<div class="kickstarter_announce">
-						<p class="project"> A <a href="https://www.kickstarter.com/projects/benkling/dryp-an-app-that-keeps-your-plants-alive-and-happy"><img src="images/kickstarter.svg" id="logokick"></a> PROJECT</p>
+						<p class="project"> A <a href="https://www.kickstarter.com/projects/benkling/dryp-an-app-that-keeps-your-plants-alive-and-happy"><img src="images/kickstarter.svg" id="logokick" alt="kickstarterLogo"></a> PROJECT</p>
 					</div>
 					<p id="end_date"></p>
 				</div>
 			</div>
+			<h1 class="h1_page">What even is DRYP?</h1>
 			<div id="intro_container">
 				<div id="textfirst">
-					<p id="paraone">
+					<p class="paraone">
 						DRYP will help you keep houseplants alive and
 						happy — and as many as you want.
 						We all know how it goes. You buy a plant thinking
@@ -66,35 +68,57 @@
 						murderous cycle — and it'll make life easier for
 						experts who have a whole jungle to care for.
 					</p>
-					<img src="images/notif.png" id="notif">
-					<div id="paraone">
+					<img src="images/notif.gif" id="notif" alt="notification">
+					<div class="paraone">
 						<p>1.Name your plants as you want!</p>
 						<p>2.When your plant needs water, you'll be notified!</p>
 					</div>
-					<img src="images/mockupappdryp.png" id="iphone_two">
-					<p id="paraone">
-						DRYP will help you keep houseplants alive and
-						happy — as many as you want.
-						We all know how it goes. You buy a plant thinking
-						"this will be a stand-in for interior design sense" or
-						"I'll prove I can keep something alive."
-						A month later you have a droopy nightmare in a pot.
-
-						Enter DRYP, your personal plant assistant.
-
-						DRYP will help aspiring plant parents break their
-						murderous cycle — and it'll make life easier for
-						experts who have a whole jungle to care for.
+					<img src="images/mockupappdryp.png" id="iphone_two" alt="iphoneimg">
+					<h2>It's A Plant Doctor!</h2>
+					<p class="paraone">
+						This way, you can progressively learn to memorize how
+						and when to specifically feed each one of your plants
+						and this will truely make you the best gardener :
+						we already tested the application in house and the worst
+						plant-love-giver became the greatest <i>Green Nerd</i>
+						you'll ever imagine!
 					</p>
 				</div>
 				<div class="pic">
-					<img src="images/iphone1.gif" id="iphone_first">
+					<img src="images/iphone1.gif" id="iphone_first" alt="iphoneimg">
 				</div>
 			</div>
-			<div class = "test_paralax">
-				<img src="images/feuilles.svg" alt="">
+			<div id="plant_tutor_container">
+				<h2>But also a plant tutor !</h2>
+				<div>
+					<div class="shadow">
+						<img src="images/mockuplesson.png" alt="">
+					</div>
+					<div id="plant_tutor_text">
+						<p>DRYP has lessons on the basics of plant care AND important bullets about each plant you've got.</p>
+						<p>You'll never need to skip paragraphs of junk copy on Garden-Advice-Answers-Magazine dot com again. <i> We promise</i>.</p>
+					</div>
+					<div class="shadow">
+						<img src="images/mockuplesson2.png" alt="">
+					</div>
+				</div>
 			</div>
-
-	<script src="scripts/script.js"></script>
+			</main>
+			<footer id="kickstarter_promo">
+				<h2>You can be part of the project ! </h2>
+				<iframe width="546" height="410"
+					src="https://www.youtube.com/embed/zkNgd4fqWsk" frameborder="0" >
+				</iframe>
+				<div class="">
+					<p>Your plants need DRYP, and we need YOU</p>
+					<p>Help us to make this project happen and join our community of plants's lover on <a href="https://www.kickstarter.com/projects/benkling/dryp-an-app-that-keeps-your-plants-alive-and-happy">KICKSTARTER</a> !</p>
+				</div>
+				<div class="fund_us">
+					<a id="fund_us1" href="https://www.kickstarter.com/projects/benkling/dryp-an-app-that-keeps-your-plants-alive-and-happy"><img  src="images/fundus1.png" alt=""></a>
+					<a id="fund_us2" href="https://www.kickstarter.com/projects/benkling/dryp-an-app-that-keeps-your-plants-alive-and-happy"><img  src="images/fundus2.png" alt=""></a>
+				</div>
+			</footer>
+	<img id="bottom_pic" src="images/bottom.svg" alt="">
+	<script src="scripts/script.min.js"></script>
 </body>
 </html>
