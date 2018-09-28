@@ -1,13 +1,16 @@
-@-webkit-keyframes opa-in {
+@-webkit-keyframes opa-in
+{
   0%   { opacity: 0; }
   100% { opacity: 1; }
 }
-@-moz-keyframes opa-out {
+@-moz-keyframes opa-out
+{
   0%   { opacity: 1; }
   100% { opacity: 0; }
 }
 
-* {
+*
+{
 	padding:0;
 	margin:0;
 	-webkit-box-sizing: border-box;
@@ -21,101 +24,8 @@ body
 	background-size: cover;
 	background-attachment:fixed;
 	background-color: #339966;
-	height: 400vh;
-}
-
-#intro_container
-{
-  margin-left: auto;
-  margin-right: auto;
-  width: 80vw;
-  height: 55%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-#textfirst
-{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-#paraone
-{
-	font-size: 25px;
-	max-width: 40vw;
-  margin: auto;
-	margin-top: 40px;
-	color: white;
-}
-
-#paraone p{
-  margin-bottom : 1.5em;
-}
-
-#notif
-{
-  max-width: 30vw;
-  margin: auto;
-}
-
-#iphone_first
-{
-	height: 500px;
-	width: auto;
-  max-width: 40vw;
-  margin: auto;
-}
-
-.sticky
-{
-	position:fixed;
-	float: right;
-	top:10vh;
-	margin-right: 100px;
-	margin-left: 60vw;
-}
-
-#iphone_first
-{
-	height: 600px;
-	width: auto;
-	animation:opa-in 3s;
-	position: -webkit-sticky;
-  	position: sticky;
-  	top: 100px;
-}
-#iphone_two
-{
-	display: block;
-	height: 500px;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	animation:opa-in 3s;
-  	top: 100px;
-}
-
-}
-.kickstarter_announce
-{
-    text-align: center;
-    margin-bottom: 40vh;
-}
-
-.subtitle
-{
-	position: relative;
-	margin:auto;
-}
-
-.kickstarter_announce p
-{
-    position: relative;
-    margin-top: -30px;
-    padding-top: -30px;
+	height: 550vh;
+  position: relative;
 }
 
 /***** header menu *****/
@@ -160,10 +70,10 @@ header nav ul li a {
 	padding:0 20px;
 	line-height:80px;
 	-moz-user-select: -moz-none;
-   	-khtml-user-select: none;
-   	-webkit-user-select: none;
+ 	-khtml-user-select: none;
+ 	-webkit-user-select: none;
 	-ms-user-select: none;
-   	user-select: none;
+ 	user-select: none;
 }
 
 header nav ul li:hover {
@@ -196,6 +106,26 @@ header nav ul li #kick:hover
   background-color: #2b7f55;
 }
 
+/***** page top with announce and animations ****/
+
+.kickstarter_announce
+{
+  text-align: center;
+  margin-bottom: 40vh;
+}
+
+.subtitle
+{
+	position: relative;
+	margin:auto;
+}
+
+.kickstarter_announce p
+{
+  position: relative;
+  margin-top: -30px;
+  padding-top: -30px;
+}
 
 
 .animated_logo_container
@@ -203,29 +133,29 @@ header nav ul li #kick:hover
 	max-width: 30%;
 	height: auto;
 	-moz-user-select: -moz-none;
-   	-khtml-user-select: none;
-   	-webkit-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
 	-ms-user-select: none;
-   	user-select: none;
-   	z-index: 3;
-		position: relative;
-		margin: auto;
-		margin-bottom: 7%;
+  user-select: none;
+  z-index: 3;
+	position: relative;
+	margin: auto;
+	margin-bottom: 7%;
 	position: relative;
 	margin: auto;
 	margin-bottom: 20vh;
-
-
 }
 
-#animated_logo_dryp{
+#animated_logo_dryp
+{
 	width: 100%;
 	position: absolute;
 	top: 0;
 	left : 0;
 }
 
-.animated_logo_background{
+.animated_logo_background
+{
 	animation-name: appear;
 	animation-duration: 2s;
 	animation-delay: 2s;
@@ -237,7 +167,8 @@ header nav ul li #kick:hover
 	left : 0;
 }
 
-@keyframes appear {
+@keyframes appear
+{
     0%   {opacity: 0;}
     100% {opacity: 1;}
 }
@@ -245,14 +176,16 @@ header nav ul li #kick:hover
 
 /**** fisrt plants animation *****/
 
-.animated_plants{
+.animated_plants
+{
   position: relative;
   width: 100vw;
   height: 100vh;
 	position: fixed;
 }
 
-.leaves3{
+.leaves3
+{
   width : 10%;
   top: 40%;
   position: absolute;
@@ -262,7 +195,8 @@ header nav ul li #kick:hover
   animation-fill-mode: forwards;
 }
 
-.leaves{
+.leaves
+{
   width : 10%;
   top: 8%;
   position: absolute;
@@ -271,7 +205,8 @@ header nav ul li #kick:hover
   animation-fill-mode: forwards;
 }
 
-.leaves2{
+.leaves2
+{
   width : 5%;
   top: 70%;
   position: absolute;
@@ -280,13 +215,15 @@ header nav ul li #kick:hover
   animation-fill-mode: forwards;
 }
 
-@keyframes example1 {
+@keyframes example1
+{
     0%   {left:-20%; opacity: 0  ;}
     100% {left: -2%; opacity: 1;}
 }
 
 
-.branch{
+.branch
+{
   width : 10%;
   top : 50%;
   position: absolute;
@@ -296,7 +233,8 @@ header nav ul li #kick:hover
 }
 
 
-@keyframes example2 {
+@keyframes example2
+{
     0%   {right:-20%; opacity: 0;}
     100% {right: 0; opacity: 1;}
 }
@@ -310,6 +248,7 @@ header nav ul li #kick:hover
   animation-fill-mode: forwards;
 }
 
+/**** informative content of page top ***/
 
 .texto
 {
@@ -326,6 +265,7 @@ h2
 {
 	text-align: center;
 	color: white;
+  font-size: 2em;
 }
 .texto p a
 {
@@ -351,18 +291,21 @@ h2
 	padding:10px 20px;
 }
 
-.texto h2 {
+.texto h2
+{
 	font-size:40px;
 	letter-spacing: 2.5px;
 	font-weight: normal;
 }
 
-.texto p {
+.texto p
+{
 	font-size:20px;
 	letter-spacing: 2.5px;
 }
 
-#fadein_intro{
+#fadein_intro
+{
   opacity: 0;
 }
 
@@ -379,7 +322,8 @@ h2
     font-size: 1.8rem;
 }
 
-.kickstarter_announce p a{
+.kickstarter_announce p a
+{
   margin : 0 15px 0 15px;
 }
 
@@ -390,14 +334,221 @@ h2
     transform: translateY(1px);
 }
 
-#end_date{
+#end_date
+{
   left : 50%;
   transform: translate(-50%);
   position: absolute;
   bottom : 10%;
 }
 
+/**** main ***/
+
+#intro_container
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: 200vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.h1_page{
+  color: white;
+  margin: auto;
+  width : 40vw;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 3em;
+  text-align: center;
+}
+
+#textfirst
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#paraone
+{
+	font-size: 25px;
+	max-width: 40vw;
+  margin: auto;
+	margin-top: 40px;
+	color: white;
+}
+
+#paraone p{
+  margin-bottom : 1.5em;
+}
+
+#notif
+{
+  max-width: 30vw;
+  margin: auto;
+}
+
+.pic
+{
+  background-image: url(../images/dots.png);
+}
+
+#iphone_first
+{
+	height: 500px;
+	width: auto;
+  max-width: 40vw;
+  margin: auto;
+}
+
+.sticky
+{
+	position:fixed;
+	float: right;
+	top:10vh;
+	margin-right: 100px;
+	margin-left: 60vw;
+}
+
+#iphone_first
+{
+	height: 600px;
+	width: auto;
+	animation:opa-in 3s;
+	position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+#iphone_two
+{
+	display: block;
+	height: 500px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	animation:opa-in 3s;
+  top: 100px;
+}
 
 .test_paralax{
   width : 10%;
+}
+
+
+#plant_tutor_container
+{
+  margin-top: 10vh;
+  height: 70vh;
+}
+
+#plant_tutor_container > div
+{
+  margin: auto;
+  margin-top: 4%;
+  color : white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width : 80vw;
+}
+
+#plant_tutor_text
+{
+  width: 40%;
+  padding: 10% 0 10% 0;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#plant_tutor_container .shadow
+{
+  border-radius: 5px;
+  width : 20%;
+  height: 25%;
+  transition: ease-out 0.6s;
+  background-color: white;
+}
+
+#plant_tutor_container .shadow:hover{
+  box-shadow: white 0px 0px 100px 10px;
+}
+
+#plant_tutor_container div img{
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1) translateY(0.5%);
+  transition: ease-out 0.6s;
+}
+
+#plant_tutor_container div img:hover {
+  opacity:0.9;
+}
+
+
+/***** bottom page , kickstarter promo ***/
+
+#kickstarter_promo
+{
+  margin-top: 10%;
+  color : white ;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content : space-around;
+}
+
+#kickstarter_promo > div
+{
+  width : 30vw;
+  height: 30%;
+  margin: auto;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#kickstarter_promo a{
+  text-decoration: none;
+  color: white;
+}
+
+#kickstarter_promo a:hover{
+  color: yellow;
+}
+
+
+#fund_us1{
+  width: 100%;
+  display: block;
+}
+
+#fund_us2{
+  width: 100%;
+  display: none;
+}
+
+.fund_us:hover #fund_us1{
+  display: none;
+}
+
+.fund_us:hover #fund_us2{
+  display: block;
+}
+
+#bottom_pic{
+  transform: translateY(1%);
+  transition: ease-in 1s;
+  position: absolute;
+  bottom : 0px;
+}
+
+#bottom_pic:hover{
+  transform: translateY(10%);
 }

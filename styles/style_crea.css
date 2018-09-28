@@ -98,7 +98,7 @@ header nav ul li #kick:hover
   background-color: #13555b;
 }
 
-/***** DIV NOM + IMAGES *****/
+/***** DIV + IMAGES *****/
 
 .topDiv{
 	display: flex;
@@ -140,7 +140,7 @@ header nav ul li #kick:hover
 
 
 
-/***** DIV TEXTE SOLO *****/
+/***** DIV TEXT ONLY *****/
 
 .infoText{
 	padding: 10px 0 50px 170px;
@@ -171,7 +171,7 @@ header nav ul li #kick:hover
 
 
 
-/***** DIV RESEAUX (FOLLOW ME) *****/
+/***** DIV NETWORKS (FOLLOW ME) *****/
 
 .reseaux{
 	padding: 50px 0 50px 50px;
